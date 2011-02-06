@@ -1,0 +1,100 @@
+#mbforms { padding-bottom: 25px; }
+.clear_row { overflow: hidden !important; }
+#itemTPL { display: none; }
+#mbforms div.row, #mbforms div.row_full
+{
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+#mbforms div.row label
+{
+	float: left;
+	width: 140px;
+	margin-right: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#mbforms div.row input
+{
+	float: left;
+	width: 450px;
+	height: 20px;
+	border: 1px solid #000000;
+}
+#mbforms div.row input.checkbox
+{
+	width: auto !important;
+}
+#mbforms div.row textarea
+{
+	width: 450px;
+	height: 100px;
+	border: 1px solid #000000;
+}
+#mbforms div.row .submit
+{
+	width: auto !important;
+	height: auto !important;
+	padding: 5px;
+}
+#mbforms h2 { border-bottom: 1px solid #000; }
+#mbforms .add_item 
+{
+	float: right;
+	background: url('../../../wolf/plugins/mbforms/images/add_20.png') no-repeat 0px 2px;
+	padding-left: 25px;
+	text-decoration: none;
+}
+#mbforms .add_item:hover { color: #000; }
+
+#mbforms .delButton { width:100%; text-align: right;margin-bottom: 15px; }
+#mbforms .delButton h2 { border: 0px;margin: 0;padding:0; }
+#mbforms .delButton a
+{
+	background: url('../../../wolf/plugins/mbforms/images/cancel_20.png') no-repeat 0px 2px;
+	padding-left: 25px;
+	text-decoration: none;
+}
+#mbforms .delButton a:hover { color: #000; }
+
+
+/* ITEMS */
+#mbforms .row_half
+{
+	width: 45%;
+	float: left;
+	padding: 0 0 10px 0;
+}
+#mbforms div.row_half label, div.row_full label
+{
+	float: left;
+	width: 70px !important;
+	margin-right: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#mbforms div.row_half input, div.row_full input
+{
+	float: left;
+	width: 250px !important;
+	height: 20px;
+	border: 1px solid #000000;
+}
+#mbforms div.row_full input { width: 630px !important; }
+#mbforms div.row_full p { display: block; font-size: 12px;padding-left: 20px; }
+#mbforms div.row.item { border-bottom: 1px solid #000; }
+#mbforms .no_padd { padding: 0px !important; margin: 0px !important; }
+#mbforms .mberror
+{
+	background-color: #FCB7BB;
+	border: 1px solid;
+	padding: 5px;
+	color: #D51829;
+	margin: 0 0 20px 0;
+}
+#mbforms .captcha { margin: 0 0 20px 145px; }
+
+
+
