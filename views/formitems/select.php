@@ -1,6 +1,6 @@
 <div class="row">
 	<label for="frm_<?php echo $item['id']; ?>"><?php echo $item['label']; echo ($item['isrequired'] == '1') ? '*' : ''; ?></label>
-	<select name="form[<?php echo $item['id']; ?>]" id="frm_<?php echo $item['id']; ?>"<?php echo $items['extras']; ?>>
+	<select name="form[<?php echo $item['id']; ?>]" id="frm_<?php echo $item['id']; ?>"<?php echo $item['extras']; ?>>
 		<option value=""><?php echo __('Please Select an Option'); ?></option>
 		<?php
 			$ex = explode(",", $item['formvalues']);
