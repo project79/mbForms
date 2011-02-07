@@ -1,3 +1,5 @@
+# mbForms Readme
+
 ## Installation
 
 First download mbForms from https://github.com/snsmurf/mbForms
@@ -19,6 +21,7 @@ Once you've setup your form, you are now ready to add the form to your page. Cli
 ## Captcha
 
 mbForms uses reCaptcha for it's spam bot catching! In order to use the captcha functionality in mbForms you'll need to create some reCaptcha keys and place these in the mbForms settings. To generate your public/private keys for reCaptcha visit the follow link.
+
 https://www.google.com/recaptcha/admin/create
 
 ## Support
