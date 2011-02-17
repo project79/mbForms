@@ -123,7 +123,7 @@ if(!defined("CMS_ROOT"))
 	<div class="row_full no_padd">
 		<p>* <?php echo __('Denotes required fields'); ?><br />
 		** <?php echo __('You must add at least one form item.'); ?><br />
-		*** <?php echo __("For class's, JS events etc..."); ?></p>
+		*** <?php echo __("For classes, JS events etc..."); ?></p>
 	</div>
 </div>
 

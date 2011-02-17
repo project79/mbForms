@@ -64,7 +64,7 @@ class MbformsController extends PluginController
 	        $forms = mbforms::findAllFrom('mbforms');
 	        if(count($forms) === 0)
 	        {
-	        	$forms = "You have not yet created any forms";
+	        	$forms = __('You have not yet created any forms');
 	        }        	        
 	        
 	        $this->display('mbforms/views/admin/index', array('forms' => $forms));

@@ -101,7 +101,7 @@ if(defined("CMS_BACKEND"))
 				// let's email!
 				// construct the body
 				
-				$email_body = __("There has been an email submission via ").$name.__(". See below for submission details")."<br /><br />";
+				$email_body = __("There has been an email submission via :name. See below for submission details",array(':name'=>$name))."<br /><br />";
 				
 				foreach($form['items'] as $k => $item)
 				{

@@ -23,7 +23,7 @@ echo "<p class='button'><a href='".get_url('plugin/mbforms/')."'><img src='".URL
 
 <div class='box'>
 	<h2>".__('Displaying Your Forms')."</h2>
-	<p>".__("To display your form, place the follow code into the page you wish the form to appear on while substituting FORMNAME for the name of the your form.<br /><br />
+	<p>".__("To display your form, place the following code into the page you wish the form to appear on while substituting FORMNAME for the name of the your form.<br /><br />
 	&lt;?php mbForm('FORMNAME'); ?&gt;")."</p>
 </div>
 
