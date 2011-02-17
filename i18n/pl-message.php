@@ -8,9 +8,17 @@
      *
      * @author Piotr Łukaszewski <nowotnypl@gmail.pl>
      * @version Wolf 0.7.3
+     * @version mbForms 1.0.2     
      */
 
-    return array(   	
+    return array( 
+	'<p>For support visit <a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />
+	This was a hobby project so support isn\'t full time but I will endeavour to answer questions and update the script as much as possible!<br /><br />
+	
+	Feedback / Suggestions are more then welcome.</p>' => '<p>Pomoc można uzyskać pod adresem<a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />
+	Jest to projekt hobbystyczny więc nie jest to pełne wsparcie techniczne ale postaram się odpowiedzieć na pytania i aktualizować plugin jak tylko to będzie możliwe<br /><br />
+	
+	Opinie / Sugestie są mile widziane.</p>',  	
 	'Add Item' => 'Dodaj element',
 	'Are you sure?' => 'Czy jesteś pewien?',
 	'Checkbox' => 'Pole wielokrotnego wyboru',
@@ -53,19 +61,23 @@
 	'Submit Form' => 'Wyślij',
 	'Success Template' => 'Wzorzec pozytywnego rezultatu',
 	'Text Area' => 'Duże pole tekstowe',
-	'There has been an email submission via :name. See below for submission details' => '',
+	'There has been an email submission via :name. See below for submission details' => 'Wypełniono formularz na :name. Poniżej znajdują się szczegóły wypełnionego formularza',
 	'There were one or more errors with the data you entered!' => 'Wystąpiły błędy! Dane niepoprawne!',
+	'To display your form, place the following code into the page you wish the form to appear on while substituting FORMNAME for the name of the your form.<br /><br />&lt;?php mbForm(\'FORMNAME\'); ?&gt;' => 'Aby wyświetlić formularz umieść poniższy kod w ciele strony na której ma się on pokazywać. Zamień ciąg NAZWA_FORMULARZA na nazwę twojego formularza.<br /><br />&lt;?php mbForm(\'NAZWA_FORMULARZA\'); ?&gt;',
 	'Type' => 'Typ',
 	'Use Captcha' => 'Użyj Captcha',
 	'Values' => 'Wartości',
 	'You did not enter the correct captcha code, please try again!' => 'Kod Captcha niepoprawny spróbuj ponownie.',
 	'You do not have permission to access the requested page!' => 'Nie masz uprawnień do tej strony!',
 	'You have not filled out ":label"' => 'Nie wypełniono pola ":label"',
+	'You have not yet created any forms' => 'Nie utworzono jeszcze żadnych formularzy',
 	'You must add at least one form item.' => 'Musisz dodać przynajmniej jeden element formularza.',
 	'You must fill out a name for this form' => 'Musisz podać nazwę formularza',
 	'You must fill out a recipient email address for the form.' => 'Musisz podać adres email odbiorców formularza.',
 	'You must select a success template.' => 'Musisz wybrać wzorzec pozytywnego rezultatu',
 	'You must select at least one item for the form.' => 'Musisz wybrać przynajmniej jeden element formularza.',
+	'You\'ll need to enter the correct keys in these fields to be able to use mbForms captcha functionality. mbForms uses reCaptcha for it\'s captcha functionality, you can create your keys <a href=\'https://www.google.com/recaptcha/admin/create\'>here</a>' => 'Musisz wpisać poprawne wartości kluczy aby skorzystać z funkcji captcha. mbForms wspiera system reCaptcha. Klucze możesz uzyskać <a href=\'https://www.google.com/recaptcha/admin/create\'>pod tym adresem</a>. ',
+	'mbForms Support' => 'Pomoc do mbForms',	
 	'reCaptcha Private Key' => 'Klucz prywatny reCaptcha',
 	'reCaptcha Public Key' => 'Klucz publiczny reCaptcha',
     );
