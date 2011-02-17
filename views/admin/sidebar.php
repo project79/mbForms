@@ -23,14 +23,10 @@ echo "<p class='button'><a href='".get_url('plugin/mbforms/')."'><img src='".URL
 
 <div class='box'>
 	<h2>".__('Displaying Your Forms')."</h2>
-	<p>".__("To display your form, place the following code into the page you wish the form to appear on while substituting FORMNAME for the name of the your form.<br /><br />
-	&lt;?php mbForm('FORMNAME'); ?&gt;")."</p>
+	<p>".__("To display your form, place the following code into the page you wish the form to appear on while substituting FORMNAME for the name of the your form.<br /><br />&lt;?php mbForm('FORMNAME'); ?&gt;")."</p>
 </div>
 
 <div class='box'>
 	<h2>".__('mbForms Support')."</h2>
-	".__('<p>For support visit <a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />
-	This was a hobby project so support isn\'t full time but I will endeavour to answer questions and update the script as much as possible!<br /><br />
-	
-	Feedback / Suggestions are more then welcome.</p>')."
+	".__('<p>For support visit <a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />This was a hobby project so support isn\'t full time but I will endeavour to answer questions and update the script as much as possible!<br /><br />Feedback / Suggestions are more then welcome.</p>')."
 </div>";

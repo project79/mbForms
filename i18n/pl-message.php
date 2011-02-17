@@ -12,13 +12,7 @@
      */
 
     return array( 
-	'<p>For support visit <a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />
-	This was a hobby project so support isn\'t full time but I will endeavour to answer questions and update the script as much as possible!<br /><br />
-	
-	Feedback / Suggestions are more then welcome.</p>' => '<p>Pomoc można uzyskać pod adresem<a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />
-	Jest to projekt hobbystyczny więc nie jest to pełne wsparcie techniczne ale postaram się odpowiedzieć na pytania i aktualizować plugin jak tylko to będzie możliwe<br /><br />
-	
-	Opinie / Sugestie są mile widziane.</p>',  	
+	'<p>For support visit <a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />This was a hobby project so support isn\'t full time but I will endeavour to answer questions and update the script as much as possible!<br /><br />Feedback / Suggestions are more then welcome.</p>' => '<p>Pomoc można uzyskać pod adresem<a href="http://www.mikebarlow.co.uk">www.mikebarlow.co.uk</a>.<br />Jest to projekt hobbystyczny więc nie ma pełnego wsparcia technicznego ale postaram się odpowiedzieć na pytania i aktualizować plugin jak tylko to będzie możliwe.<br /><br />Opinie / Sugestie są mile widziane.</p>',  	
 	'Add Item' => 'Dodaj element',
 	'Are you sure?' => 'Czy jesteś pewien?',
 	'Checkbox' => 'Pole wielokrotnego wyboru',
@@ -35,7 +29,7 @@
 	'Failed to delete the form!' => 'Nie udało się usunąć formularza!',
 	'Failed to save your form, please try again.' => 'Nie udało się zapisać formularza, spróbuj ponownie.',
 	'Failed to send your email! Please try again' => 'Nie udało się wysłać emaila! Spróbuj ponownie.',
-	'For classes, JS events etc...' => 'Do określania klas, zdarzeń Javaskrypt, itd...',
+	'For classes, JS events etc...' => 'Do określania klas, zdarzeń Javaskrypt, itp...',
 	'For drop downs and radio buttons. Seperate the options with a comma.' => 'Dla rozwijanych pól wyboru i pól jednokrotnego wyboru',
 	'Form Builder' => 'Formularze',
 	'Form List' => 'Lista formularzy',
@@ -77,7 +71,7 @@
 	'You must select a success template.' => 'Musisz wybrać wzorzec pozytywnego rezultatu',
 	'You must select at least one item for the form.' => 'Musisz wybrać przynajmniej jeden element formularza.',
 	'You\'ll need to enter the correct keys in these fields to be able to use mbForms captcha functionality. mbForms uses reCaptcha for it\'s captcha functionality, you can create your keys <a href=\'https://www.google.com/recaptcha/admin/create\'>here</a>' => 'Musisz wpisać poprawne wartości kluczy aby skorzystać z funkcji captcha. mbForms wspiera system reCaptcha. Klucze możesz uzyskać <a href=\'https://www.google.com/recaptcha/admin/create\'>pod tym adresem</a>. ',
-	'mbForms Support' => 'Pomoc do mbForms',	
+	'mbForms Support' => 'Pomoc dla mbForms',	
 	'reCaptcha Private Key' => 'Klucz prywatny reCaptcha',
 	'reCaptcha Public Key' => 'Klucz publiczny reCaptcha',
     );
