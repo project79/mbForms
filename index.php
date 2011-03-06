@@ -32,7 +32,7 @@ Plugin::setInfos(array(
     'id'          => 'mbforms',
     'title'       => 'mbForms', 
     'description' => 'Form Builder Plugin for WolfCMS', 
-    'version'     => '1.0.2',
+    'version'     => '1.0.3',
     'require_wolf_version' => '0.6',
     'type' => 'both',
     'author' 	  => 'Mike Barlow',
